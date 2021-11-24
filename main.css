@@ -1,0 +1,62 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url(assets/mozaik_f.png)
+	color: #444349;
+}
+
+.cover {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background-image: url(assets/cover_image.jpg);
+	background-repeat: no-repeat;
+  background-attachment:inherit;
+	background-position: 70% 10%;
+	background-size: cover;
+}
+
+
+
+.title {
+	position: absolute;
+	top: 42%;
+	width: 100%;
+	padding: 25px;
+	margin: auto;
+	height: auto;
+	color: aliceblue;
+	background-color: rgba(0, 0, 0, 0.4);
+	text-align: center;
+}
+
+h1 {
+	font-family: Great Vibes;
+	font-size: 4rem;
+	padding: 1rem;
+	color: #d2ba87
+}
+
+h2 {
+	font-family: Libre Baskerville;
+	text-transform: uppercase;
+	font-size: 1.2rem;
+}
+
+@media screen and (min-width: 992px) {
+.title {
+	position: absolute;
+	top: 45%;
+	right: 20%;
+	width: 60%;
+	padding: 25px;
+	margin: auto;
+	height: auto;
+	color: aliceblue;
+	background-color: rgba(0, 0, 0, 0.4);
+	text-align: center;
+}
