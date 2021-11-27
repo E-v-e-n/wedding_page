@@ -59,7 +59,6 @@ body {
 }
 
 .locations {
-	background-image: url(assets/mozaik_f.png);
 	text-align: center;
 }
 
@@ -87,16 +86,39 @@ body {
 	margin-top: 2rem;
 }
 
+.vonal2 {
+	background-color: #d2ba87;
+	width: 35%;
+	height: 3px;
+	margin: auto;
+	margin-top: 2rem;
+}
+
 .hatter_s {
 	background-color: rgba(0, 0, 0, 0.6);
-	height: 450px
+  padding-bottom: 1.8rem;
+  color: #d2ba87;
+  padding: 1rem;
+}
+
+.hatter_s h1{
+  text-align: center;
+	font-size: 3rem;
+	font-family: Great Vibes;
+	padding: 2rem;
+}
+
+.hatter_s h2{
+  text-align: center;
+  font-size: 1.7rem;
+  margin-bottom: 1.5rem;
 }
 
 .programs {
 	max-width: 600px;
 	color: #d2ba87;
 	padding: 1rem;
-	margin: auto;
+  margin: auto;
 }
 
 .programs h1{
@@ -104,6 +126,12 @@ body {
 	font-size: 3rem;
 	font-family: Great Vibes;
 	padding: 2rem;
+}
+
+.programs h2 {
+  text-align: center;
+  font-size: 1.7rem;
+  margin-bottom: 1.5rem;
 }
 
 .programs p {
@@ -116,6 +144,10 @@ body {
 	text-align: center;
 	margin-bottom: 2rem;
 	font-style: italic;
+}
+
+.GandC {
+  font-size: 1.1rem;
 }
 
 @media screen and (min-width: 992px) {
@@ -134,10 +166,10 @@ body {
 
 .boxes {
 	font-family: mulish;
-	margin-bottom: 2rem;
 	font-size: 1.2rem;
 	display: inline-block;
 	width: 33%;
+  vertical-align: top;
 }
 
 .vonal {
@@ -149,6 +181,14 @@ body {
 	display: none;
 }
 
+.vonal2 {
+	background-color: #d2ba87;
+	width: 35%;
+	height: 3px;
+	margin: auto;
+	margin-top: 2rem;
+  display: none;
+}
 }
 
 
