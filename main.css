@@ -60,6 +60,7 @@ body {
 
 .locations {
 	text-align: center;
+  padding: 1rem;
 }
 
 .locations img {
@@ -148,6 +149,20 @@ body {
 
 .GandC {
   font-size: 1.1rem;
+}
+
+#spec {
+  font-family: Libre Baskerville;
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #bd806e;
+}
+
+a:hover {
+  color: #eda087;
 }
 
 @media screen and (min-width: 992px) {
