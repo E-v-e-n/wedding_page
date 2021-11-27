@@ -26,7 +26,7 @@ body {
 	position: absolute;
 	top: 42%;
 	width: 100%;
-	padding: 25px;
+	padding: 12px;
 	margin: auto;
 	height: auto;
 	color: aliceblue;
@@ -163,6 +163,22 @@ a {
 
 a:hover {
   color: #eda087;
+}
+
+footer {
+  display: table;
+  width: 100%;
+  text-align: center;
+  background-color: #606060;
+  color: white;
+  height: 50px;
+  font-family: mulish;
+  font-size: 0.8rem;
+}
+
+footer p {
+  display: table-cell;
+  vertical-align: middle;
 }
 
 @media screen and (min-width: 992px) {
